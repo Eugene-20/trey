@@ -1,0 +1,534 @@
+.fade{
+	display:none;
+}
+body {
+    background-image: url("blueo.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  
+}
+
+.topnav {
+    background-color: #527fd0;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.centers{
+	text-align:center;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: #527fd0;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+p.oblique {
+	font-style: oblique;
+	font-size: 50px;
+	text-align: center;
+	color:white;
+}
+#first{
+	width:100%;
+	height:400px;
+}
+.picone{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 4px;
+	background-image: url("rsztutone.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  
+}
+.tutone{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;	
+}
+#second{
+	width:100%;
+	height:400px;
+}
+.pictwo{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztuttwo.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tuttwo{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+	
+}
+#third{
+	width:100%;
+	height:400px;
+
+}
+.picthree{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutthree.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutthree{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;
+}
+#fourth{
+	width:100%;
+	height:400px;
+}
+.picfour{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 4px;
+	background-image: url("rsztutfour.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutfour{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;
+}
+#fifth{
+	width:100%;
+	height:400px;
+}
+.picfive{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7 ;
+	padding: 8px;
+	background-image: url("rsztutfive.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutfive{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;
+	
+}
+#sixth{
+	width:100%;
+	height:400px;
+
+}
+.picsix{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutsix.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutsix{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;
+
+}
+#seven{
+	width:100%;
+	height:400px;
+}
+.picseven{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 4px;
+	background-image: url("rsztutseven.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutseven{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;
+	
+}
+#eighth{
+	width:100%;
+	height:400px;
+}
+.piceight{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztuteight.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tuteight{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px;
+	
+}
+#ninth{
+	width:100%;
+	height:400px;
+
+}
+.picnine{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutnine.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutnine{
+	float:right;
+	width:673px;
+    height:400px;
+    padding:8px;
+}
+#tenth{
+	width:100%;
+	height:400px;
+}
+.picten{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutten.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutten{
+	float:right;
+	width:673px;
+    height:400px;
+	padding:8px
+}
+#eleventh{
+	width:100%;
+	height:400px;
+}
+.piceleven{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztuteleven.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tuteleven{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+}
+#twelvth{
+	width:100%;
+	height:400px;
+
+}
+.pictwelve{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztuttwelve.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tuttwelve{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+}
+#thirteenth{
+	width:100%;
+	height:400px;
+}
+.picthirteen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 4px;
+	background-image: url("rsztutthirteen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutthirteen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+	
+}
+#fourteenth{
+	width:100%;
+	height:400px;
+}
+.picfourteen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutfourteen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutfourteen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+	
+}
+#fifteenth{
+	width:100%;
+	height:400px;
+
+}
+.picfifteen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutfifteen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutfifteen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+}
+#sixteenth{
+	width:100%;
+	height:400px;
+}
+.picsixteen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid#3562c7;
+	padding: 4px;
+	background-image: url("rsztutsixteen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutsixteen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+	
+}
+#seventeenth{
+	width:100%;
+	height:400px;
+}
+.picseventeen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztutseventeen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutseventeen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+	
+}
+#eighteenth{
+	width:100%;
+	height:400px;
+
+}
+.piceighteen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #3562c7;
+	padding: 8px;
+	background-image: url("rsztuteighteen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tuteighteen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+}
+#nineteenth{
+	width:100%;
+	height:400px;
+
+}
+.picnineteen{
+	float:left;
+	width:673px;
+    height:400px;
+	background-color:white;
+	border: 4px solid #337ed1;
+	padding: 8px;
+	background-image: url("rsztutnineteen.jpg");
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.tutnineteen{
+	float:right;
+	width:673px;
+    height:400px;
+	padding: 8px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+p {
+  text-indent: 14px;
+  text-align: justify;
+  color:white;
+  font-size:20px;
+}

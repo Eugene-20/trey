@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>QE</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+			<body>
+				<div class="topnav" id="myTopnav">
+					  <a href="../index.html">Home</a>
+					  <a href="../tutorial/tutorial.html">Tutorial</a>
+					  <a href="../gallery/gallery.html">Gallery</a>
+					  <a href="../pricing/pricing.html" class="active">Pricing</a>
+					  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+				</div>
+					<p class="oblique"> Pricing </p>
+						<div id="header">
+						<h2>This is for those who find it too difficult to edit. I will edit them for a small price here below.<h2>
+						</div>
+						<div id="firstly">
+							<div class="priceone"></div>
+							<div class="cartone">
+							<h1>Fully Kitted out </h1>
+							<h2>This includes new front and back cover with colours of your choice.New joysticks and new buttons.The ultimate deal.</h2>
+							</div>
+							<div class="cartoone">
+								<h3>€45.99<h3>
+								<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+								  <!-- Identify your business so that you can collect the payments. -->
+								  <input type="hidden" name="business" value="eugeneomondii76@gmail.com">
+
+								  <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+								  <input type="hidden" name="cmd" value="_cart">
+								  <input type="hidden" name="add" value="1">
+
+								  <!-- Specify details about the item that buyers will purchase. -->
+								  <input type="hidden" name="item_name" value="Fully Kitted out">
+								  <input type="hidden" name="amount" value="45.99">
+								  <input type="hidden" name="currency_code" value="EUR">
+
+								  <!-- Display the payment button. -->
+								  <input type="image" name="submit"
+									src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+									alt="Add to Cart">
+								  <img alt="" width="1" height="1"
+									src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+								</form>
+								
+							</div>
+						</div>
+						<div id="secondly">
+							<div class="pricetwo"></div>
+							<div class="carttwo">
+							<h1>Kitted Buttons</h1>
+							<h2>This only includes new buttons and new joysticks.</h2>
+							</div>
+							<div class="cartotwo">
+							<h3>€22.99<h3>
+							  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+							  <!-- Identify your business so that you can collect the payments. -->
+							  <input type="hidden" name="business" value="eugeneomondii76@gmail.com">
+
+							  <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+							  <input type="hidden" name="cmd" value="_cart">
+							  <input type="hidden" name="add" value="1">
+
+							  <!-- Specify details about the item that buyers will purchase. -->
+							  <input type="hidden" name="item_name" value="Fully Kitted out">
+							  <input type="hidden" name="amount" value="22.99">
+							  <input type="hidden" name="currency_code" value="EUR">
+
+							  <!-- Display the payment button. -->
+							  <input type="image" name="submit"
+								src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+								alt="Add to Cart">
+							  <img alt="" width="1" height="1"
+								src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+							  </form>
+							</div>
+						</div>
+						<div id="thirdly">
+						<p class="oblique"> Disclaimer!!!!!!! Anything bought from this site cannot be refunded.This is a website that is not fully functional at the moment. </p>
+							
+						</div>
+			</body>
+</html>
